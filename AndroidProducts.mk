@@ -15,4 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_jd2019.mk
+    $(LOCAL_DIR)/twrp_jd2019.mk
+    
+COMMON_LUNCH_CHOICES := \
+    twrp_jd2019-eng
